@@ -3,7 +3,7 @@ FROM ubuntu:latest
 MAINTAINER Majid Abdolhosseini
 
 # nginx version check here "http://nginx.org/download/" for available versions
-ENV NGINX_VERSION 1.9.9
+ENV NGINX_VERSION 1.15.4
 
 ENV NGINX_PUSH_STREAM_MODULE_PATH /Sources/nginx-push-stream-module
 
